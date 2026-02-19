@@ -1,0 +1,46 @@
+services:
+
+  db:
+
+    image: mysql:8.0
+
+    container_name: v_g_db
+
+    restart: always
+
+    environment:
+
+      MYSQL_DATABASE: vite_gourmand
+
+      MYSQL_ROOT_PASSWORD: root
+
+    ports:
+
+      - "3309:3306"
+
+    volumes:
+
+      - v_g_db_data:/var/lib/mysql
+ 
+  app:
+
+    build: .
+
+    container_name: v_g_app
+
+    ports:
+
+      - "9000:80"
+
+    depends_on:
+
+      - db
+
+    volumes:
+
+      - ./app:/var/www/html
+ 
+volumes:
+
+  v_g_db_data:
+ 
