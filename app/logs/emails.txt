@@ -1,0 +1,12 @@
+[2026-02-16 16:14:42] À : corneille@gmail.com | Sujet : Commande Terminée
+Message : Votre commande est terminée. Connectez-vous pour donner votre avis !
+--------------------------
+[2026-02-16 16:15:11] À : corneille@gmail.com | Sujet : Retour Matériel - Urgent
+Message : Merci de restituer le matériel sous 10 jours sinon pénalité de 600€.
+--------------------------
+[2026-02-16 20:02:13] À : corneille@gmail.com | Sujet : Commande Terminée
+Message : Votre commande est terminée. Connectez-vous pour donner votre avis !
+--------------------------
+[2026-02-17 09:04:39] À : corneillegbaguidi13@gmail.com | Sujet : Réinitialisation mot de passe
+Message : Cliquez ici pour changer votre mot de passe : http://localhost/vite-gourmand/reset.php?token=d2bfaf3c6fb5e80a8cbec4761838a168
+--------------------------
