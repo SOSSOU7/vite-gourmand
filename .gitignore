@@ -1,0 +1,29 @@
+# === Docker ===
+/docker-data/
+/mysql-data/
+/mongo-data/
+*.pid
+*.log
+
+# === Docker Compose ===
+.env
+.env.local
+.env.*.local
+
+# === PHP / Apache ===
+/vendor/
+/composer.lock
+*.cache
+*.tmp
+
+# === Node / Front (si tu ajoutes plus tard) ===
+/node_modules/
+/dist/
+/build/
+
+# === Système ===
+.DS_Store
+Thumbs.db
+
+# === VS Code ===
+.vscode/

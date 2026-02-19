@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<?php
 
-    <title>Vite & Gourmand</title>
-</head>
-<body>
-    
+$route = $_GET['route'] ?? 'home';
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+switch ($route) {
+    case 'home':
+        require_once '../controllers/HomeController.php';
+        $controller = new HomeController();
+        $controller->index();
+        break;
+
+    default:
+        echo "404 - Page non trouvée";
+        break;
+}
